@@ -1,0 +1,22 @@
+POST http://localhost:4004/api/v1/Orders
+Content-Type: application/json
+
+{
+  "requestID": "12345",
+  "requestBy": "John Doe",
+  "totalPrice": 1000.00
+}
+
+####
+GET http://localhost:4004/api/v1/Orders
+
+####Approver
+POST http://localhost:4004/api/v1/approveOrder
+Content-Type: application/json
+
+{
+      "requestID": "uuid-4",
+      "requestBy": "Bob1",
+      "totalPrice": 12000.00
+}      
+

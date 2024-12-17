@@ -1,0 +1,4 @@
+ID,email,name,approvalValue
+uuid-1,alice@example.com,Alice,10000
+uuid-2,bob@example.com,Bob,25000
+uuid-3,charlie@example.com,Charlie,50000
